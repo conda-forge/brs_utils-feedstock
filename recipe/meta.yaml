@@ -37,7 +37,7 @@ test:
     - pytest -v --cov --cov-report term-missing
 
 about:
-  home: https://github.com/brsynth/{{ name|lower }}
+  home: https://github.com/brsynth/brs-utils
   summary: "Generic Utilities"
   license: MIT
   license_file: LICENSE
@@ -45,4 +45,3 @@ about:
 extra:
   recipe-maintainers:
     - breakthewall
-    
