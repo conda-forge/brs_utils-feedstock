@@ -1,5 +1,5 @@
 {% set name = "brs_utils" %}
-{% set version = "1.14.28" %}
+{% set version = "1.14.29" %}
 
 package:
   name: {{ name|lower }}
