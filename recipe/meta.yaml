@@ -1,5 +1,5 @@
 {% set name = "brs_utils" %}
-{% set version = "1.14.29" %}
+{% set version = "1.14.39" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brsynth/brs-utils/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 57edfa876562a7f47ad111e68571ca9d2fe9797d25f5a1808fee1aa5d6fb6a6f
+  sha256: de19ed98018a2c73258c26b0feefd9f219e787fca40df320de5c9810da317e78
 
 build:
   number: 0
@@ -38,11 +38,11 @@ test:
 
 about:
   home: https://github.com/brsynth/{{ name|lower }}
-  summary: "Generic Utilities"
+  summary: Generic Utilities
   license: MIT
   license_file: LICENSE
 
 extra:
   recipe-maintainers:
     - breakthewall
-    
+
