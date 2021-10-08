@@ -1,7 +1,7 @@
 About brs_utils
 ===============
 
-Home: https://github.com/brsynth/brs_utils
+Home: https://github.com/brsynth/brs-utils
 
 Package license: MIT
 
