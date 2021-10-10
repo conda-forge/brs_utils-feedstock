@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brsynth/brs-utils/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 32f49d9784311ae7a70a56029705c044e7624eb4f1a9560f99d08e883e1d1ce5
+  sha256: 95f27a33f57b461929bf9f4bcaf981d97f30fc4a3a82b0aa4a8c18cc0d14e9a3
 
 build:
   number: 0
