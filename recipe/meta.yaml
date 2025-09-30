@@ -11,6 +11,7 @@ source:
 
 build:
   number: 0
+  skip: true  # [py>=3.13]
   noarch: python
   script: {{ PYTHON }} -m pip install -vv .
 
