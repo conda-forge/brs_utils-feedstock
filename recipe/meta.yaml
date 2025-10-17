@@ -32,7 +32,6 @@ test:
   imports:
     - {{ name|lower }}
   requires:
-    - python >={{ python_min }}
     - pytest
     - pytest-cov
   commands:
