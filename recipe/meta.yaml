@@ -1,5 +1,5 @@
 {% set name = "brs_utils" %}
-{% set version = "1.24.2" %}
+{% set version = "1.25.1" %}
 {% set python_min = "3.6" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/brsynth/brs-utils/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 48b810346bc225e9aea788fcc9bc850330117d74a659cddade1d82c68793de6b
+  sha256: 2748771c34b71eaa0d650d3792ea9610cf4781897987476928cd04b3531f1f9d
 
 build:
   number: 0
